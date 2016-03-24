@@ -1,0 +1,20 @@
+{
+  "name": "gooroo-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e js,html,css ./start.js"
+  },
+  "author": "Jessica Wonmi Park <wonmipark@gmail.com> (https://github.com/wnmprk)",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.9",
+    "mongoose-auto-increment": "^5.0.1",
+    "morgan": "^1.7.0"
+  }
+}
